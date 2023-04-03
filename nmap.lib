@@ -1,0 +1,46 @@
+#!/bin/bash
+
+url=$3
+
+thread_3000()
+{
+    python3 threader3000.py $url
+    echo "Starting threader3000.py"
+}
+
+dir_bf()
+{
+    echo "Starting directordir_bfy brute force "
+    feroxbuster -k -u $url -w /usr/share/seclists/Discovery/Web-Content/raft-small-words.txt -s 200 -T 10
+}
+
+crt_scan()
+{
+    curl -k -s --url "https://crt.sh/?q=$url&output=json" | jq .
+}
+
+nikto_scan()
+{
+    nikto --url $url -timeout 100
+}
+
+sub_domain()
+{
+    ffuf -c -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u "https://$url" -H "Host: FUZZ.$url" -mc 200
+}
+
+who()
+{
+    whois $url    
+}
+
+final_recon()
+{
+    finalrecon --full https://$url
+    echo "stating finalrecon"
+}
+
+host_scan()
+{
+    host -t a $url
+}
