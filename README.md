@@ -29,3 +29,8 @@ git clone https://github.com/ffuf/ffuf ; cd ffuf ; go get ; go build
 
 ```
 
+# Demo
+![-h](https://github.com/JimSolomon/Auto-Scan/blob/main/auto-scan.png)
+![scan](https://github.com/JimSolomon/Auto-Scan/blob/main/scan.png)
+
+
