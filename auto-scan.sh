@@ -1,14 +1,29 @@
 #!/bin/bash
 
-if [ "$1" == "-h" ] ; then
+if [ $# -eq 0 ];
+  then
+    echo " "
+    echo "Type -h for more details"
+    echo " "
+
+elif [ "$1" == "-h" ] 
+  then
      # Display Help
-    figlet -f slant AutoScan
+    echo "  "
+    echo "  █████╗ ██╗   ██╗████████╗ ██████╗     ███████╗ ██████╗ █████╗ ███╗   ██╗"    
+    echo " ██╔══██╗██║   ██║╚══██╔══╝██╔═══██╗    ██╔════╝██╔════╝██╔══██╗████╗  ██║"    
+    echo " ███████║██║   ██║   ██║   ██║   ██║    ███████╗██║     ███████║██╔██╗ ██║"    
+    echo " ██╔══██║██║   ██║   ██║   ██║   ██║    ╚════██║██║     ██╔══██║██║╚██╗██║"    
+    echo " ██║  ██║╚██████╔╝   ██║   ╚██████╔╝    ███████║╚██████╗██║  ██║██║ ╚████║"  
+    echo "                                                                          "
     echo "This a RECON tool created by Jim Solomon"
-    echo ""
+    echo " "
     echo "This scan will run threader3000, feroxbuster, crt.sh , ffuf and FinalRecon"
-    echo "Usage: -m to specify which scan mode before the domains"
+    echo "Usage: -m to specify which scan mode"
     echo "Aruguments (lower case): -m (for scan mode):  nmap, dir, crt , nikto, sub, thread and all "
-    echo "Example: ./scan.sh -m crt twitter.com  smile.amazon.co.uk"
+    echo " "
+    echo "Example usage: ./scan.sh -m crt twitter.com  smile.amazon.co.uk"
+    echo " "
     exit 0
 fi
 
