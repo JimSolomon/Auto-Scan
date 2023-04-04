@@ -22,8 +22,6 @@ sudo apt install seclists curl feroxbuster nikto nmap finalrecon whois dig
 
 ```
 
-# ffuf
-
 ```bash
 git clone https://github.com/ffuf/ffuf ; cd ffuf ; go get ; go build
 
