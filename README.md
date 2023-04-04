@@ -18,7 +18,7 @@ Aruguments (lower case): -m :  `thread`, `dir`, `crt` , `nikto`. `sub`, `final` 
 
 ```bash
 
-sudo apt install seclists curl feroxbuster nikto nmap finalrecon  
+sudo apt install seclists curl feroxbuster nikto nmap finalrecon whois dig 
 
 ```
 
