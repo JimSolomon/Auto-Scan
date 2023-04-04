@@ -31,7 +31,7 @@ Available modes are: `thread`(threader3000), `dir`(feroxbuster), `crt`(crt.sh) ,
 
 Example:
 ```bash
-./auto-scan.sh -m crt twitter.com  smile.amazon.co.uk
+./auto-scan.sh -m crt twitter.com smile.amazon.co.uk
 ```
 # DEMO
 1. `-h` (Help) details 
