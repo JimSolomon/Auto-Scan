@@ -32,5 +32,7 @@ sudo apt install seclists curl feroxbuster nikto nmap finalrecon whois dig && gi
 3. Run `whois` scan 
 
 
+
+
 ![scan](https://github.com/JimSolomon/Auto-Scan/blob/main/scan.png)
 
