@@ -5,7 +5,7 @@
                        ███████║██║   ██║   ██║   ██║   ██║    ███████╗██║     ███████║██╔██╗ ██║    
                        ██╔══██║██║   ██║   ██║   ██║   ██║    ╚════██║██║     ██╔══██║██║╚██╗██║    
                        ██║  ██║╚██████╔╝   ██║   ╚██████╔╝    ███████║╚██████╗██║  ██║██║ ╚████║  
-                                         ------A project by Jim Solomon---------
+                                        --------- A project by Jim Solomon ---------
 
 
 # Note:warning:: This project is licensed under the terms of the MIT license.
