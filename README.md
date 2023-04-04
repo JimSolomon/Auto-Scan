@@ -18,14 +18,8 @@ Aruguments (lower case): -m :  `thread`(threader3000), `dir`(feroxbuster), `crt`
 
 ```bash
 
-sudo apt install seclists curl feroxbuster nikto nmap finalrecon whois dig 
+sudo apt install seclists curl feroxbuster nikto nmap finalrecon whois dig && git clone https://github.com/ffuf/ffuf ; cd ffuf ; go get ; go build
 
-```
-
-```bash
-git clone https://github.com/ffuf/ffuf ; cd ffuf ; go get ; go build
-
-```
 
 # Demo
 ![-h](https://github.com/JimSolomon/Auto-Scan/blob/main/auto-scan.png)
