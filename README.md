@@ -26,9 +26,9 @@ sudo apt install seclists curl feroxbuster nikto nmap finalrecon whois dig && gi
 1. `-h` (Help) details 
 ![-h](https://github.com/JimSolomon/Auto-Scan/blob/main/auto-scan.png)
 
-1. Run `whois` scan 
+2. Run `whois` scan 
 ![scan](https://github.com/JimSolomon/Auto-Scan/blob/main/scan.png)
 
-2. `dig` and `threader3000` scan outputs
+3. `dig` and `threader3000` scan outputs
 ![dig and threader3000](https://github.com/JimSolomon/Auto-Scan/blob/main/dig%20and%20threader3000.png)
 
