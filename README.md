@@ -14,7 +14,7 @@
 
 Tired of manually run commands for reconnaissance for Pen-testing? This tool combined some most popular tools to auto run commands. 
 
-This [auto-scan.sh](https://github.com/JimSolomon/Auto-Scan/blob/main/auto-scan.sh) will auto emuerate targets and its SSL, ports, user-agents, directories, sub-domains infomation. It combined tools
+This [auto-scan.sh](https://github.com/JimSolomon/Auto-Scan/blob/main/auto-scan.sh) will auto emuerate a target and it's SSL, ports, user-agents, directories, sub-domains infomation. It combined tools
 such as [threader3000](https://github.com/JimSolomon/bug-bounty-2023/blob/main/thread3000.py), [nikto](https://github.com/sullo/nikto),  [feroxbuster](https://github.com/epi052/feroxbuster), [ffuf](https://github.com/ffuf/ffuf), `crt.sh`, and [FinalRecon](https://github.com/thewhiteh4t/FinalRecon). It also can scan mutilple IPs with different mode. The script was inspired by the book of [bug-bounty-bootcamp](https://nostarch.com/bug-bounty-bootcamp).
 
 Usage: `-m` to specify which scan mode before the domains
