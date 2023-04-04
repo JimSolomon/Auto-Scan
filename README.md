@@ -26,8 +26,8 @@ sudo apt install seclists curl feroxbuster nikto nmap finalrecon whois dig && gi
 
 ```
 # Usage:
-`-m` to specify which scan mode before the domains
-Aruguments (lower case): -m :  `thread`(threader3000), `dir`(feroxbuster), `crt`(crt.sh) , `nikto`. `sub`(ffuf scanning sub-domains), `final` (Run FinalRecon), `who`(whois) and `all` (scan all the modes) 
+Aruguments `-m` (lower case) to specify which scan mode before the domains. 
+Available modes are: `thread`(threader3000), `dir`(feroxbuster), `crt`(crt.sh) , `nikto`. `sub`(ffuf scanning sub-domains), `final` (Run FinalRecon), `who`(whois) and `all` (scan all the modes) 
 
 ```bash
 ./auto-scan.sh -m crt twitter.com  smile.amazon.co.uk
