@@ -29,6 +29,8 @@ git clone https://github.com/ffuf/ffuf ; cd ffuf ; go get ; go build
 
 # Demo
 ![-h](https://github.com/JimSolomon/Auto-Scan/blob/main/auto-scan.png)
+# Run `whois` command
 ![scan](https://github.com/JimSolomon/Auto-Scan/blob/main/scan.png)
-
+# Run `dig` and `threader3000`
+![dig and threader3000](https://github.com/JimSolomon/Auto-Scan/blob/main/dig%20and%20threader3000.png)
 
