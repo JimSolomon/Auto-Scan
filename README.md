@@ -33,12 +33,15 @@ Example:
 ```
 # DEMO
 1. `-h` (Help) details 
-![-h](https://github.com/JimSolomon/Auto-Scan/blob/main/auto-scan.png)
-2. `dig` and `threader3000` scan outputs
-![dig and threader3000](https://github.com/JimSolomon/Auto-Scan/blob/main/dig%20and%20threader3000.png)
+![-h](https://github.com/JimSolomon/Auto-Scan/blob/main/banner.png)
+2. [crt.sh](https://crt.sh/)
+![dig and threader3000](https://github.com/JimSolomon/Auto-Scan/blob/main/crt2.png)
 3. `whois` scan 
-
 ![scan](https://github.com/JimSolomon/Auto-Scan/blob/main/whois.png)
 
-4. `FinalRecon` scan 
+4. [FinalRecon](https://github.com/thewhiteh4t/FinalRecon) 
 ![FinalRecon](https://github.com/JimSolomon/Auto-Scan/blob/main/final.png)
+
+5. [threader3000](https://github.com/JimSolomon/bug-bounty-2023/blob/main/thread3000.py)
+![threader](https://github.com/JimSolomon/Auto-Scan/blob/main/threader.png)
+
