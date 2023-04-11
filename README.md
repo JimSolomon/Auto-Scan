@@ -20,7 +20,7 @@ This version combined tools of [threader3000](https://github.com/JimSolomon/bug-
 
 ```bash
 
-sudo apt install seclists curl feroxbuster nikto nmap finalrecon whois dig && git clone https://github.com/ffuf/ffuf ; cd ffuf ; go get ; go build
+sudo apt install jq seclists curl feroxbuster nikto nmap finalrecon whois dig && git clone https://github.com/ffuf/ffuf ; cd ffuf ; go get ; go build
 
 ```
 # Usage:
