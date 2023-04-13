@@ -44,14 +44,14 @@ elif [ "$3" == "" ]
 fi
 
 source ./nmap.lib
-modee="dir crt nikto sub thread who dig final all"
+#modee="dir crt nikto sub thread who dig final all"
 getopts "m:" OPTION
 MODE=$OPTARG
 
 while true;do
     if [ "$2" != "dir" ] && [ "$2" != "crt" ] && [ "$2" != "nikto" ] && [ "$2" != "sub" ] && [ "$2" != "thread" ] && [ "$2" != "who" ] && [ "$2" != "dig" ] && [ "$2" != "final" ] && [ "$2" != "all" ]; then
 
-        echo "your have made a typo $2, Please specify a scan mode: dir, crt , nikto, sub, thread, who, fiinal, all"
+        echo "You have entered a wrong mode $2. Please specify a scan mode: dir, crt, nikto, sub, thread, who, fiinal, all"
         break
     else
         for i in "${@:$OPTIND:$#}";do    
